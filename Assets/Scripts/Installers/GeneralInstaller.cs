@@ -1,7 +1,8 @@
+using Common;
 using UnityEngine;
 using Zenject;
 
-namespace DataOriented
+namespace Installers
 {
     public class GeneralInstaller : MonoInstaller
     {

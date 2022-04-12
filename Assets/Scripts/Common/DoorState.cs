@@ -1,4 +1,4 @@
-﻿namespace DataOriented
+﻿namespace Common
 {
     public enum DoorState
     {

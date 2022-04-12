@@ -1,9 +1,9 @@
-﻿using DataOriented.Components;
+﻿using Common;
+using Components;
 using Leopotam.Ecs;
 using UnityEngine;
 
-
-namespace DataOriented.Systems
+namespace Systems
 {
     public class MovingSystem : IEcsRunSystem
     {

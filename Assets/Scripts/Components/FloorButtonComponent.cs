@@ -1,4 +1,6 @@
-﻿namespace DataOriented.Components
+﻿using Common;
+
+namespace Components
 {
     public struct FloorButtonComponent
     {

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace DataOriented
+namespace Common
 {
     public class InitData : MonoBehaviour
     {

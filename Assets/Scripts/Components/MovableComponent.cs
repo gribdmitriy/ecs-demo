@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace DataOriented.Components
+namespace Components
 {
     public struct MovableComponent
     {

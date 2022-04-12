@@ -1,7 +1,8 @@
-﻿using DataOriented.Components;
+﻿using Common;
+using Components;
 using Leopotam.Ecs;
 
-namespace DataOriented.Systems
+namespace Systems
 {
     public class InitSystem : IEcsInitSystem
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DataOriented
+namespace Common
 {
     [Serializable]
     public struct Group
