@@ -3,7 +3,7 @@
 namespace DataOriented
 {
     [Serializable]
-    public struct EntityGroup
+    public struct Group
     {
         public int floorButton;
         public int door;

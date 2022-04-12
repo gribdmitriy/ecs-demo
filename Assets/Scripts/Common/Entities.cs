@@ -3,6 +3,6 @@
     public class Entities
     {
         public int player;
-        public EntityGroup[] doorAndButton = new EntityGroup[2];
+        public Group[] doorAndButton = new Group[2];
     }
 }

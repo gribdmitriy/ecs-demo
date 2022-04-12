@@ -1,6 +1,6 @@
 ﻿namespace DataOriented
 {
-    public enum ButtonState
+    public enum FloorButtonState
     {
         Release,
         Press

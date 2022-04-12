@@ -38,6 +38,7 @@ namespace DataOriented.Systems
                 doors[i].Get<MovableComponent>().transform = initData.doors[i].transform;
                 doors[i].Get<MovableComponent>().moveSpeed = 1;
                 doors[i].Get<MovableComponent>().index = doors[i].GetInternalId();
+                doors[i].Get<DoorComponent>();
                 entities.doorAndButton[i].door = doors[i].GetInternalId();
             }
             
@@ -46,7 +47,7 @@ namespace DataOriented.Systems
                 floorButtons[i].Get<MovableComponent>().transform = initData.floorButtons[i].transform;
                 floorButtons[i].Get<MovableComponent>().moveSpeed = 3;
                 floorButtons[i].Get<MovableComponent>().index = floorButtons[i].GetInternalId();
-                floorButtons[i].Get<ButtonComponent>();
+                floorButtons[i].Get<FloorButtonComponent>();
                 entities.doorAndButton[i].floorButton = floorButtons[i].GetInternalId();
             }
             

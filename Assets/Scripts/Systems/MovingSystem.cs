@@ -30,16 +30,6 @@ namespace DataOriented.Systems
                    movableComponent.isMoving = false;
                 }
             }
-
-            /*ref var playerMovableComponent = ref movablePool.GetItem(entities.player);
-
-            if (!playerMovableComponent.isMoving) return;
-            
-            var distCovered = (Time.time - playerMovableComponent.startTime) * playerMovableComponent.moveSpeed;
-                
-            var fractionOfJourney = distCovered / playerMovableComponent.journeyLength;
-                
-            playerMovableComponent.transform.position = Vector3.Lerp(playerMovableComponent.startPosition, playerMovableComponent.targetPosition, fractionOfJourney);*/
         }
     }
 }

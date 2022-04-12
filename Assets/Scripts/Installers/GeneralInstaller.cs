@@ -6,7 +6,8 @@ namespace DataOriented
     public class GeneralInstaller : MonoInstaller
     {
         [SerializeField] private InitData initData;
-    
+        [SerializeField] private Camera mainCamera;
+        
         public override void InstallBindings()
         {
             Container
@@ -17,6 +18,11 @@ namespace DataOriented
             Container
                 .Bind<InitData>()
                 .FromInstance(initData)
+                .AsSingle();
+
+            Container
+                .Bind<Camera>()
+                .FromInstance(mainCamera)
                 .AsSingle();
         }
     }

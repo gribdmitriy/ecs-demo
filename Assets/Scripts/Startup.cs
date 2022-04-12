@@ -9,15 +9,17 @@ namespace DataOriented
     {
         private InitData initData;
         private Entities entities;
+        private Camera mainCamera;
         
         private EcsWorld _world;
         private EcsSystems _systems;
 
         [Inject]
-        private void Construct(Entities _entities, InitData _initData)
+        private void Construct(Entities _entities, InitData _initData, Camera _mainCamera)
         {
             entities = _entities;
             initData = _initData;
+            mainCamera = _mainCamera;
         }
         
         private void Start()
@@ -39,6 +41,7 @@ namespace DataOriented
         {
             _systems.Inject(entities);
             _systems.Inject(initData);
+            _systems.Inject(mainCamera);
         }
         
         private void Update()

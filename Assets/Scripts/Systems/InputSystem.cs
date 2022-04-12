@@ -8,7 +8,8 @@ namespace DataOriented.Systems
     {
         private EcsWorld _world;
         private Entities entities;
-
+        private Camera mainCamera;
+        
         public void Run()
         {
             if (Input.GetMouseButtonDown(0))
